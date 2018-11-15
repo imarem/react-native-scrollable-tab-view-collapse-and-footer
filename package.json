@@ -1,0 +1,107 @@
+{
+  "_args": [
+    [
+      "react-native-scrollable-tab-view",
+      "c:\\git\\DopuoApp"
+    ]
+  ],
+  "_from": "react-native-scrollable-tab-view@latest",
+  "_hasShrinkwrap": false,
+  "_id": "react-native-scrollable-tab-view@0.9.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/react-native-scrollable-tab-view",
+  "_nodeVersion": "10.12.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/react-native-scrollable-tab-view_0.9.0_1540456921733_0.49885388332881764"
+  },
+  "_npmUser": {
+    "email": "ptomasroos@gmail.com",
+    "name": "ptomasroos"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "react-native-scrollable-tab-view",
+    "raw": "react-native-scrollable-tab-view",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-scrollable-tab-view/-/react-native-scrollable-tab-view-0.9.0.tgz",
+  "_shasum": "cf8c09018f1e1c88bb26db6a003c90de275a1c6f",
+  "_shrinkwrap": null,
+  "_spec": "react-native-scrollable-tab-view",
+  "_where": "c:\\git\\DopuoApp",
+  "author": {
+    "name": "Brent Vatne"
+  },
+  "bugs": {
+    "url": "https://github.com/brentvatne/react-native-scrollable-tab-view/issues"
+  },
+  "dependencies": {
+    "create-react-class": "^15.6.2",
+    "prop-types": "^15.6.0",
+    "react-timer-mixin": "^0.13.3"
+  },
+  "description": "[![npm version](https://badge.fury.io/js/react-native-scrollable-tab-view.svg)](https://badge.fury.io/js/react-native-scrollable-tab-view)",
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.1.1"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 10,
+    "integrity": "sha512-41UYxmiT57+PYKxWbRM8pGNgSapXYvL+bOcj+E7u+vHp0r7nMh1Imvc5J0XGVoPb31xwB0vWj/a88mifQx9p5g==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb0YHaCRA9TVsSAnZWagAAjCIQAIZO+suLeqvUwhtCN14c\n5MfaT9f3giEWgpO8MCjOZ4VYuXJkuhU5qmKWqcTcK0HfoJh0MS0NNMZmUJuu\nfaSrHRDvR8oLJ6h4ruHjPpHQawfEK/KNFr7VZbHScPAOJ5U6s/N7fdSRR5GC\nCt0vkZUA3AZ+sI3uJvOpnWxDu/AQ5kCnsDBm3UmmmF+TDemVwJLCldm2Nrr4\nE+xhojcASMDYDts6hZE+lg273ftzul4AMNO3kDuCBP6UbtWoMMV4IeE2oPl3\ng0hP9aZ7v5y7rthDH8k1HcY+uhL6kXM7OwSoPW5GBCHh16nc6eywPqG2QSVv\nijZS7PLO0SrVpopFMLn3oQOrfvAN5CAr+AFyBYsX/bKfT2IpFllZb4dFwGih\n2vh7LKSJk9+QrC7AnyH2e1fVcOMIc8mLvoISoD4PJvspxp/HjzzhZuBlKR9H\n2mIZUVb7nIuaZ+0U8Budh/AG4+CUVuX5xyppzzSJLAy8vSqTCuNIVbSl7y4l\neM8MenVU3e6QPp3lspMhvpUgSNF1yGaROiD/0CzWv92bKbdNLNW5QZN0LxGc\n99juLoa3D2wYfWuNC0G3P2LNUzkN91exCI9MG0WQpgZsOQu7A7bJP9/ih0uV\niekaYktuvupDU5q9hQVPDPUZxWvIXsPHg0uI325AKEb8mxGVb8XnS6+Iwab3\nZUrP\r\n=ltYI\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "cf8c09018f1e1c88bb26db6a003c90de275a1c6f",
+    "tarball": "https://registry.npmjs.org/react-native-scrollable-tab-view/-/react-native-scrollable-tab-view-0.9.0.tgz",
+    "unpackedSize": 41481
+  },
+  "gitHead": "67e4f3b3eba09add2d8cfb1eace2f60c846efec2",
+  "homepage": "https://github.com/brentvatne/react-native-scrollable-tab-view#readme",
+  "keywords": [
+    "react-native-component",
+    "react-component",
+    "react-native",
+    "ios",
+    "tab",
+    "scrollable"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "brentvatne@gmail.com",
+      "name": "brentvatne"
+    },
+    {
+      "email": "skv-headless@yandex.ru",
+      "name": "headless"
+    },
+    {
+      "email": "ptomasroos@gmail.com",
+      "name": "ptomasroos"
+    }
+  ],
+  "name": "react-native-scrollable-tab-view",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react-native": ">=0.20.0"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brentvatne/react-native-scrollable-tab-view.git"
+  },
+  "scripts": {
+    "lint": "eslint -c .eslintrc . --ignore-path .gitignore",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.9.0"
+}
