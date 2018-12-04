@@ -41,6 +41,7 @@ const ScrollableTabView =createReactClass({
     prerenderingSiblingsNumber: PropTypes.number,
     collapsableBar: PropTypes.node,
     renderFooter: PropTypes.any,
+    refreshControl: PropTypes.any,
   },
 
   getDefaultProps() {
@@ -297,7 +298,8 @@ const ScrollableTabView =createReactClass({
       onLayout={this._handleLayout}
       ref={contentView => {this.contentView = contentView;}}
       onMomentumScrollEnd={event => {this.contentScrollDistance = event.nativeEvent.contentOffset.y;}}
-      stickyHeaderIndices={this.props.collapsableBar ? [1, ] : []}>
+      stickyHeaderIndices={this.props.collapsableBar ? [1, ] : []}
+      refreshControl={this.props.refreshControl?this.props.refreshControl:null}>
       {this.renderCollapsableBar()}
       {this.props.tabBarPosition === 'top' && <View style={{paddingHorizontal:20, backgroundColor:'white'}}>{this.renderTabBar(tabBarProps)}</View>}
       {this.renderScrollableContent()}
